@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-container">
+    <section class="login-card" aria-labelledby="login-title">
+      <h1 id="login-title">Login</h1>
+      <form action="#" method="post">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter username" required />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required />
+        </div>
+        <div class="row">
+          <label class="remember"><input type="checkbox" /> Remember me</label>
+          <a class="forgot" href="#">Forgot password?</a>
+        </div>
+        <button type="submit">Login</button>
+        <p class="signup">Don’t have an account? <a href="#">Sign up</a></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
